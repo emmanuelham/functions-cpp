@@ -1,0 +1,34 @@
+// Define a robot class
+// The robot should have attributes:
+// - Name
+// - Location
+// Battery level
+
+class Robot{
+  public:
+    string name;
+    float locationX;
+    float locationY;
+    float battery;
+    
+    // constructor
+    void constructor(){
+      cout << "This is a constructor? << endl;
+    // take input parameters:
+    // name, locationX, locationY, and set battery level to 100.0
+    }
+    Robot(string name = "noName", float inLocX = 0, float inLocY = 0, float startBatt = 100){
+      cout << "Hello Im a brand new robot" << endl;
+      }};
+      
+      #include <iostream>
+      
+      using namespace std;
+      #include "Robot.h"
+      
+      int main (){
+        // Declare a robot object
+        Robot danny;
+        
+        // access the name of robot (dot notation)
+        cout << danny.name}
