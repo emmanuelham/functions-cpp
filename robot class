@@ -18,6 +18,10 @@ class Robot{
     // name, locationX, locationY, and set battery level to 100.0
     }
     Robot(string name = "noName", float inLocX = 0, float inLocY = 0, float startBatt = 100){
+      name = inName;
+      locationX = inLocX;
+      locationY = inLocY;
+      battery = startBatt;
       cout << "Hello Im a brand new robot" << endl;
       }};
       
